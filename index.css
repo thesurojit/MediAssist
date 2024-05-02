@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url('HomePic.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #333;
+    position: absolute;
+    /* Position the logo absolutely */
+    top: 20px;
+    /* Distance from the top */
+    left: 20px;
+    /* Distance from the left */
+}
+
+.logo-letter {
+    font-size: 36px;
+    /* Larger font size for the initial letter */
+    font-weight: bold;
+    color: #007bff;
+    /* Blue color for emphasis */
+}
+
+.logo-subtitle {
+    font-size: 18px;
+    /* Smaller font size for the subtitle */
+    color: #666;
+    /* Slightly darker color for the subtitle */
+    margin-top: 5px;
+    /* Add some spacing between the main text and subtitle */
+}
+
+
+.container {
+    max-width: 99vh;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    the container stand out */ border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+input[type="text"] {
+    text-align: center;
+    width: calc(100% - 80px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#medicineDetails {
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        max-width: 80%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 90%;
+        padding: 10px;
+    }
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 1.5em;
+    /* Responsive font size */
+}
+
+input[type="text"] {
+    width: calc(100% - 80px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    /* Responsive font size */
+}
+
+.name {
+    font-size: large;
+    font-family: cursive;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    /* Responsive font size */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#medicineDetails {
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    /* Responsive font size */
+}
